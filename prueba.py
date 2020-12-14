@@ -1,13 +1,10 @@
-var = b'123/4.5'
+import serial
+import time
 
-dataN = var.decode("utf-8")
+#Puerto
+puerto = "/dev/ttyUSB0"
 
-#dataN = "123/4.5"
-
-data3 = dataN.rstrip("/")
-data4 = dataN.lstrip("/")
-data5= dataN.split("/")
-
-print(data5)
-print(data5[0])
-print(type(data5[0]))
+ser = serial.Serial(puerto,9600)
+time.sleep(2)
+ser.write(b'300')
+ser.close()
