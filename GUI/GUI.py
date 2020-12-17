@@ -23,13 +23,19 @@ class Window(QMainWindow):
         openFile1 = QAction("&Recibir Instrucciones", self)
         openFile1.setShortcut("Ctrl+O")
         openFile1.setStatusTip("Obtener datos de todos los sensores")
-        openFile1.triggered.connect(self.sendRobot)
+        openFile1.triggered.connect(self.sendRobotT)
         
         # Ventana Enviar
         openFile2 = QAction("&Enviar Instrucciones", self)
         openFile2.setShortcut("Ctrl+S")
         openFile2.setStatusTip("Enviar Instrucciones al Robot Fisico")
         openFile2.triggered.connect(self.sendInformacion)
+        
+        # Deterner envio
+        openFile3 = QAction("&Parar Instrucciones", self)
+        openFile3.setShortcut("Ctrl+P")
+        openFile3.setStatusTip("Detener carga de Instrucciones")
+        openFile3.triggered.connect(self.sendRobotF)
         
         self.statusBar()
         mainMenu = self.menuBar()
@@ -40,6 +46,7 @@ class Window(QMainWindow):
         
         # Definir acciones para cada ventana
         fileMenu1.addAction(openFile1)
+        fileMenu1.addAction(openFile3)
         fileMenu2.addAction(openFile2)
 
         # Background
@@ -60,13 +67,18 @@ class Window(QMainWindow):
         self.show()
 
     #Metodo para recibir informacion
-    def sendRobot(self):
+    def sendRobotT(self):
         herramientas.controlRobot(True)
         Window.refrescarPantalla(self,'./Imagenes/banner.png')
     
     #Metodo para enviar informacion
     def sendInformacion(self):
         herramientas.sendArduino()
+        Window.refrescarPantalla(self,'./Imagenes/banner.png')
+        
+    #Metodo para detener carga de informacion
+    def sendRobotF(self):
+        herramientas.controlRobot(False)
         Window.refrescarPantalla(self,'./Imagenes/banner.png')
             
     # Agregar imagen a color a la pantalla principal
