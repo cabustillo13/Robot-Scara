@@ -4,6 +4,14 @@ El objetivo general del proyecto es la construcción de un sistema de realidad v
 
 ### HMI, GUI y Robot Físico
 
+El HMI está conformado por 5 sensores MPU6050 transmitiendo datos a 3 Nodemcu, los cuales tienen asignados 3 IPs estáticas y sus respectivos puertos.
+
+El robot físico cuenta con una GUI (Interfaz gráfica) que recibe todos los datos por socket, procesa los paquetes de datos y luego por serial envia la información al robot para que ejecute las maniobras.
+
+La simulación corre por Coppelia Sim que está conectado por un puerto asignado al Jupyter-Lab. Este recibe por socket toda la información del HMI, consume una API de comunicación y luego envia todas las maniobras al Robot Virtual.
+
+![Equipo](https://github.com/cabustillo13/Robot-Scara/blob/main/Recursos/equipo.png)
+
 
 ### Escenario 0: Calibración 
 
@@ -26,3 +34,10 @@ Pusimos una pared con la intención que el usuario se coloque los lentes de real
 
 # Video Demo
 
+![Demostración](https://github.com/cabustillo13/Robot-Scara/blob/main/Recursos/videoDemo.gif)
+
+# Autores
+
+- Carlos Bustillo y Rodrigo Pérez
+- Realidad Virtual - Facultad de Ingeniería UNCUYO
+- Diciembre 2020
