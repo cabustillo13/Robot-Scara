@@ -1,5 +1,31 @@
 # Robot-Scara
 
+<p align="center">
+ <img width="100px" src="https://github.com/cabustillo13/Robot-Scara/blob/main/Recursos/robot.svg" align="center" alt="Robot Scara" />
+ <h2 align="center">Robot Scara</h2>
+ <p align="center"><b>Control por Human Machine Interface (HMI) un robot físico y su respectiva simulación.</b></p>
+
+</p>
+  <p align="center">
+    <a href="https://github.com/cabustillo13/Robot-Scara/actions/new">
+      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+    </a>
+        <a href="https://github.com/cabustillo13/Robot-Scara/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/cabustillo13/Robot-Scara?color=0088ff" />
+    </a>
+    <a href="https://github.com/cabustillo13/Robot-Scara/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/cabustillo13/Robot-Scara?color=0088ff" />
+    </a>
+    <br />
+    <p align="center">
+    <a href="https://github.com/cabustillo13/Robot-Scara/blob/master/README.md">Español</a>
+    ·
+    <a href="https://github.com/cabustillo13/Robot-Scara/blob/main/Traducciones/English.md">English</a>
+    ·
+    <a href="https://github.com/cabustillo13/Robot-Scara/blob/main/Traducciones/Portugu%C3%AAs%20Brasileiro.md">Português Brasileiro</a>
+  </p>
+</p>
+
 El objetivo general del proyecto es la construcción de un sistema de realidad virtual que permita la programación de un brazo robótico industrial de forma rápida, sencilla y segura, mediante el desarrollo de una interfaz de usuario desarrollada en software y, dispositivos de Interfaz Hombre Máquina (HMI) en hardware de modo que ambas partes interactúen entre sí. La finalidad es lograr que un usuario final, sin conocimientos de programación ni de robots, logre definir fácilmente el movimiento y todas las acciones necesarias a realizar por un robot físico.
 
 ### HMI, GUI y Robot Físico
