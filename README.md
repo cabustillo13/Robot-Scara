@@ -3,7 +3,7 @@
 <p align="center">
  <img width="100px" src="https://github.com/cabustillo13/Robot-Scara/blob/main/Recursos/robot.svg" align="center" alt="Robot Scara" />
  <h2 align="center">Robot Scara</h2>
- <p align="center"><b>Control por Human Machine Interface (HMI) un robot físico y su respectiva simulación.</b></p>
+ <p align="center"><b>Control por Human Machine Interface (HMI) de un robot físico y su respectiva simulación.</b></p>
 
 </p>
   <p align="center">
@@ -64,6 +64,6 @@ Pusimos una pared con la intención que el usuario se coloque los lentes de real
 
 # Autores
 
-- Carlos Bustillo y Rodrigo Pérez
-- Realidad Virtual - Facultad de Ingeniería UNCUYO
+- Carlos Bustillo   | cabustillo13@hotmail.com
+- Rodrigo Pérez     | rodrigoperez2110@gmail.com
 - Diciembre 2020

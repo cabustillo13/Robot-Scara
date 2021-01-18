@@ -1,5 +1,31 @@
 # Robot-Scara
 
+<p align="center">
+ <img width="100px" src="https://github.com/cabustillo13/Robot-Scara/blob/main/Recursos/robot.svg" align="center" alt="Robot Scara" />
+ <h2 align="center">Robot Scara</h2>
+ <p align="center"><b>Controle por Interface Homem Máquina (HMI) de um robô físico e sua respectiva simulação.</b></p>
+
+</p>
+  <p align="center">
+    <a href="https://github.com/cabustillo13/Robot-Scara/actions/new">
+      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+    </a>
+        <a href="https://github.com/cabustillo13/Robot-Scara/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/cabustillo13/Robot-Scara?color=0088ff" />
+    </a>
+    <a href="https://github.com/cabustillo13/Robot-Scara/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/cabustillo13/Robot-Scara?color=0088ff" />
+    </a>
+    <br />
+    <p align="center">
+    <a href="https://github.com/cabustillo13/Robot-Scara/blob/master/README.md">Español</a>
+    ·
+    <a href="https://github.com/cabustillo13/Robot-Scara/blob/main/Traducciones/English.md">English</a>
+    ·
+    <a href="https://github.com/cabustillo13/Robot-Scara/blob/main/Traducciones/Portugu%C3%AAs%20Brasileiro.md">Português Brasileiro</a>
+  </p>
+</p>
+
 O objetivo geral do projeto é a construção de um sistema de realidade virtual que permita a programação de um braço robótico industrial de forma rápida, fácil e segura, através do desenvolvimento de uma interface de usuário desenvolvida em software e dispositivos de Interface Homem-Máquina ( HMI) em hardware para que ambas as partes interajam entre si. O objetivo é conseguir que um usuário final, sem conhecimento de programação ou robôs, possa definir facilmente o movimento e todas as ações necessárias a serem realizadas por um robô físico.
 
 ### HMI, GUI e robô físico
@@ -20,24 +46,24 @@ Mostra como o HMI é dominado com simulação. E que o usuário possa estar cien
 ![Cenário 0](https://github.com/cabustillo13/Robot-Scara/blob/main/Recursos/escenario0.png)
 
 
-### Escenario 1: Circuito de Producción
+### Cenário 1: Circuito de Produção
 
-Permite al usuario adentrarse en un proceso de una planta de producción y operar el robot. La idea es tomar un objeto (cilindro) de la banda transportadora en movimiento y colocarlo correctamente en la otra cinta transportadora o la mesa fija. 
+Ele permite que o usuário entre em um processo em uma planta de produção e opere o robô. A ideia é pegar um objeto (cilindro) da esteira em movimento e colocá-lo corretamente na outra esteira ou mesa fixa.
 
 ![Cenário 1](https://github.com/cabustillo13/Robot-Scara/blob/main/Recursos/escenario1.png)
 
-### Escenario 2: Evaluar motricidad fina y control del Robot
+### Cenário 2: avaliar habilidades motoras finas e controle do robô
 
-Pusimos una pared con la intención que el usuario se coloque los lentes de realidad virtual y opere a distancia el robot colocado en otra sala. El usuario debe tomar cada uno de los elementos en la parte superior de los paralelepipedos y trasladarlos hasta la mesa.
+Montamos uma parede com a intenção de que o usuário coloque os óculos de realidade virtual e opere remotamente o robô colocado em outra sala. O usuário deve pegar cada um dos elementos do topo dos paralelepípedos e transferi-los para a mesa.
 
 ![Cenário 2](https://github.com/cabustillo13/Robot-Scara/blob/main/Recursos/escenario2.png)
 
-# Video Demo
+# Demonstração de vídeo
 
-![Demostración](https://github.com/cabustillo13/Robot-Scara/blob/main/Recursos/videoDemo.gif)
+![Demonstração](https://github.com/cabustillo13/Robot-Scara/blob/main/Recursos/videoDemo.gif)
 
 # Autores
 
-- Carlos Bustillo y Rodrigo Pérez
-- Realidad Virtual - Facultad de Ingeniería UNCUYO
-- Diciembre 2020
+- Carlos Bustillo   | cabustillo13@hotmail.com
+- Rodrigo Pérez     | rodrigoperez2110@gmail.com
+- Dezembro de 2020

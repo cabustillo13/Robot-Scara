@@ -1,5 +1,31 @@
 # Robot-Scara
 
+<p align="center">
+ <img width="100px" src="https://github.com/cabustillo13/Robot-Scara/blob/main/Recursos/robot.svg" align="center" alt="Robot Scara" />
+ <h2 align="center">Robot Scara</h2>
+ <p align="center"><b>Control by Human Machine Interface (HMI) of a physical robot and its respective simulation.</b></p>
+
+</p>
+  <p align="center">
+    <a href="https://github.com/cabustillo13/Robot-Scara/actions/new">
+      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+    </a>
+        <a href="https://github.com/cabustillo13/Robot-Scara/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/cabustillo13/Robot-Scara?color=0088ff" />
+    </a>
+    <a href="https://github.com/cabustillo13/Robot-Scara/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/cabustillo13/Robot-Scara?color=0088ff" />
+    </a>
+    <br />
+    <p align="center">
+    <a href="https://github.com/cabustillo13/Robot-Scara/blob/master/README.md">Español</a>
+    ·
+    <a href="https://github.com/cabustillo13/Robot-Scara/blob/main/Traducciones/English.md">English</a>
+    ·
+    <a href="https://github.com/cabustillo13/Robot-Scara/blob/main/Traducciones/Portugu%C3%AAs%20Brasileiro.md">Português Brasileiro</a>
+  </p>
+</p>
+
 The general objective of the project is the construction of a virtual reality system that allows the programming of an industrial robotic arm quickly, easily and safely, through the development of a user interface developed in software and Human Machine Interface devices ( HMI) in hardware so that both parties interact with each other. The purpose is to achieve that an end user, without knowledge of programming or robots, can easily define the movement and all the necessary actions to be carried out by a physical robot.
 
 ### HMI, GUI and Physical Robot
@@ -40,3 +66,4 @@ We put up a wall with the intention that the user puts on the virtual reality gl
 
 - Carlos Bustillo   | cabustillo13@hotmail.com
 - Rodrigo Pérez     | rodrigoperez2110@gmail.com
+- December of 2020
